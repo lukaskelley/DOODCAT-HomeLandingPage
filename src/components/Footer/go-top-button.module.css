@@ -1,0 +1,28 @@
+.goTopHidden {
+  transition: 0.4s;
+  display:none;
+}
+.goTop {
+    display: block;
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    bottom: 5%;
+    left:85%;
+    cursor:pointer;
+    text-align: center;
+    line-height: 30px;
+}
+.goTop:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.goTop >span > span {
+
+  color: rgb(148, 116, 75);
+  font-size: 40px !important;
+}

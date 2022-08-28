@@ -1,0 +1,67 @@
+#about {
+  background-image: url('../../assets/homeBackground.png');
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  background-color: transparent;
+  font-family: "termina", sans-serif !important;
+}
+
+.about-row {
+  padding: 0px 50px 250px 50px !important;
+  margin: 0px !important;
+}
+
+.about-container {
+  padding-top: 170px;
+}
+
+.top-title,
+.middle-title {
+  font-size: 3.222rem;
+  line-height: 3.056rem;
+  text-align: center;
+  font-family: "termina", sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  letter-spacing: 0.056rem;
+  color: rgb(255, 255, 255);
+}
+
+.top-title>img {
+  width: 600px;
+}
+
+.stakingBtnContainer {
+  width: 100%;
+}
+
+.stakingBtn {
+  justify-content: center;
+}
+
+.stakingBtn>a {
+  color: rgb(221, 219, 219);
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px;
+  background: rgb(127, 85, 168);
+  margin: 30px !important;
+}
+
+.stakingBtn>a:hover {
+  transition: 0.3s;
+  transform: scale(0.3);
+  color: rgb(221, 219, 219);
+  background: rgb(115, 61, 168);
+}
+
+@media (max-width: 1380px) {
+  .stakingBtn>a {
+    width: 150px;
+    font-size: 13px;
+
+  }
+}
