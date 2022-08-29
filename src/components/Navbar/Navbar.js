@@ -1,8 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Row, Col } from "antd";
-import LogoIMG from "../../assets/welcome.png";
-import { MenuOutlined } from "@ant-design/icons";
+import LogoIMG from "../../assets/logo.png";
 import "antd/dist/antd.css";
 
 const Navbar = ({ toggle }) => {
@@ -22,7 +21,9 @@ const Navbar = ({ toggle }) => {
           <a href="/service">WHITEPAPER</a>
           <a href="/service">MEDIUM</a>
         </Col>
-        <Col lg={6}></Col>
+        <Col lg={6} className="headerBarItem-DAPP">
+          <a href="https://app.doodcats.net/">DAPP</a>
+        </Col>
       </Row>
     </nav>
   );

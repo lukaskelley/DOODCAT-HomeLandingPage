@@ -1,19 +1,9 @@
-#about {
-  background-image: url('../../assets/homeBackground.png');
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: 50% 50%;
-  background-color: transparent;
-  font-family: "termina", sans-serif !important;
-}
-
 .about-row {
-  padding: 0px 50px 250px 50px !important;
   margin: 0px !important;
 }
 
 .about-container {
-  padding-top: 170px;
+  padding-top: 270px;
 }
 
 .top-title,
@@ -60,8 +50,52 @@
 
 @media (max-width: 1380px) {
   .stakingBtn>a {
-    width: 150px;
+    padding: 10px;
     font-size: 13px;
 
+  }
+}
+
+@media (max-width: 380px) {
+  .top-title>img {
+    width: 300px;
+  }
+
+  .top-title {
+    text-align: left;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 420px) {
+  .top-title>img {
+    width: 340px;
+  }
+
+  .top-title {
+    text-align: left;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 380px) {
+  .top-title>img {
+    width: 300px;
+  }
+
+  .top-title {
+    text-align: left;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .top-title>img {
+    width: 340px;
+  }
+
+  .top-title {
+    text-align: left;
+    padding-left: 25px;
   }
 }
